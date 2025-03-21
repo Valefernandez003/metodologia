@@ -1,0 +1,85 @@
+.containerPrincipalModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4); /* Fondo oscuro semitransparente */
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.contentPopUp {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 35vw;
+    max-width: 500px;
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.95);
+    animation: scaleUp 0.2s ease-in-out forwards;
+}
+
+@keyframes scaleUp {
+    from { transform: scale(0.95); opacity: 0.8; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.formContent input,
+.formContent textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.formContent input:focus,
+.formContent textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.buttonCard {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.buttonCard button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #abb2b9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.buttonCard button:hover {
+    background-color: #566573;
+    transform: scale(1.05);
+}
