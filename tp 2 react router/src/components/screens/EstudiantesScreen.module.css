@@ -1,0 +1,10 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.listaEstudiantes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}

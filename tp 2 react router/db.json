@@ -1,0 +1,36 @@
+{
+    "cursos": [
+        {
+            "id": 1,
+            "nombre": "Programación Web",
+            "estudiantes": [
+                { "id": 1, "nombre": "Ana", "edad": 20 },
+                { "id": 2, "nombre": "Luis", "edad": 22 },
+                { "id": 3, "nombre": "Carlos", "edad": 21 },
+                { "id": 4, "nombre": "Valentina", "edad": 23 },
+                { "id": 5, "nombre": "Jorge", "edad": 20 },
+                { "id": 6, "nombre": "Lucía", "edad": 22 },
+                { "id": 7, "nombre": "Pedro", "edad": 24 },
+                { "id": 8, "nombre": "Sofía", "edad": 21 },
+                { "id": 9, "nombre": "Diego", "edad": 22 },
+                { "id": 10, "nombre": "Martina", "edad": 20 }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Base de Datos",
+            "estudiantes": [
+                { "id": 11, "nombre": "María", "edad": 21 },
+                { "id": 12, "nombre": "Juan", "edad": 23 },
+                { "id": 13, "nombre": "Emilia", "edad": 22 },
+                { "id": 14, "nombre": "Nicolás", "edad": 20 },
+                { "id": 15, "nombre": "Agustina", "edad": 21 },
+                { "id": 16, "nombre": "Tomás", "edad": 22 },
+                { "id": 17, "nombre": "Camila", "edad": 23 },
+                { "id": 18, "nombre": "Lucas", "edad": 24 },
+                { "id": 19, "nombre": "Florencia", "edad": 20 },
+                { "id": 20, "nombre": "Iván", "edad": 22 }
+            ]
+        }
+    ]
+}
