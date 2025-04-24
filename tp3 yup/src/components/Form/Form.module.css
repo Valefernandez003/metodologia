@@ -1,0 +1,43 @@
+.containerPrincipal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #031d2f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.Form{
+    padding: 1rem;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Form > div {
+    width: 100%;
+}
+
+.containerinput{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.error {
+    display: inline-block;
+    width: 100%;
+    color: red;
+}
