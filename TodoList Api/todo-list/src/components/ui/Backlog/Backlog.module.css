@@ -1,0 +1,9 @@
+.backlog_tareaButtonAdd {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    background-color: #45A249;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}

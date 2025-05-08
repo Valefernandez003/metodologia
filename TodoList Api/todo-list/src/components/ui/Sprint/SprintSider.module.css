@@ -1,0 +1,24 @@
+.sprint_container {
+    width: 100%;
+    background-color: #70AE6E;
+    min-height: 5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border: 2px solid black;
+}
+
+.sprint_buttonAction {
+    min-height: 1rem;
+    width: 2rem;
+    background-color: #70AE6E;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}

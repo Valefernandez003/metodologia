@@ -1,0 +1,121 @@
+.home_container {
+    width: 100%;
+    min-height: 100vh;;
+    background-color: #F1F5F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_header {
+    background-color: #70AE6E;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    height: 50px;
+    border-bottom: 2px solid #303F28;
+}
+
+.home_headerTittle {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+
+.home_content{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    flex-grow: 1;
+    
+}
+
+.home_contentVistas {
+    background-color: #dbead2;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 25px;
+    margin-right: 15px;
+    margin-left: 0%;
+    border-radius: 10px;
+    border: 2px solid #303F28;
+}
+
+.home_contentSider {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #D6E4CE;
+    margin: 25px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 2px solid #303F28;
+}
+
+.home_siderButton {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    background-color: #45A249;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home_siderButton:hover {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    background-color: #347a37;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home_siderButtonAdd {
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbead2;
+    font-weight: bold;
+}
+
+.home_siderButtonAdd:hover {
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a4af9e;
+    font-weight: bold;
+}
+
+.home_siderTareasContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.home_siderNoSprints {
+    text-align: center;
+    margin-top:  10rem;
+}
+
+.home_tareaButtonAdd:hover {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    background-color: #347a37;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
